@@ -73,12 +73,14 @@
 
 To facilitate rigorous evaluation, we introduce **MathCanvas-Bench**, a challenging benchmark with 3K problems that require models to produce interleaved visual-textual solutions. The models are fine-tuned on **MathCanvas-Instruct**, a new 219K-example dataset of interleaved visual-textual reasoning paths, teaching them *when* and *how* to leverage visual aids.
 
-<figure style="text-align: center; margin: 0 auto;">
+<p align="center">
   <img src="assets/benchmark_statistics.jpg" alt="Benchmark Statistics" width="100%">
-  <figcaption style="font-size: 14px; margin-top: 8px; font-style: italic; color: #666;">
+</p>
+<p align="center">
+  <small><i>
     Statistical analysis of the MathCanvas-Instruct and MathCanvas-Bench datasets.
-  </figcaption>
-</figure>
+  </i></small>
+</p>
 
 <details>
   <summary>Examples from the MathCanvas-Instruct dataset, showing interleaved visual and textual reasoning steps.</summary>
@@ -93,12 +95,14 @@ To facilitate rigorous evaluation, we introduce **MathCanvas-Bench**, a challeng
 
 We constructed a massive 15.2M-pair pre-training corpus to teach foundational visual manipulation skills. This includes **MathCanvas-Imagen** (10M caption-to-diagram pairs) for mastering diagram generation and **MathCanvas-Edit** (5.2M step-by-step editing trajectories) for diagram editing.
 
-<figure style="text-align: center; margin: 0 auto;">
+<p align="center">
   <img src="assets/pipeline.jpg" alt="Data Curation Pipeline" width="100%">
-  <figcaption style="font-size: 14px; margin-top: 8px; font-style: italic; color: #666;">
+</p>
+<p align="center">
+  <small><i>
     The curation pipeline for the MathCanvas-Edit and MathCanvas-Imagen datasets.
-  </figcaption>
-</figure>
+  </i></small>
+</p>
 
 <details>
   <summary>Examples from the MathCanvas-Edit and MathCanvas-Imagen datasets.</summary>
@@ -115,12 +119,14 @@ Our model, **BAGEL-Canvas**, is trained using a two-stage framework:
 1.  **Stage I: Visual Manipulation:** Pre-training on MathCanvas-Imagen and MathCanvas-Edit.
 2.  **Stage II: Strategic Visual-Aided Reasoning:** Fine-tuning on MathCanvas-Instruct.
 
-<figure style="text-align: center; margin: 0 auto;">
+<p align="center">
   <img src="assets/recipe.jpg" alt="MathCanvas Framework" width="100%">
-  <figcaption style="font-size: 14px; margin-top: 8px; font-style: italic; color: #666;">
+</p>
+<p align="center">
+  <small><i>
     The two-stage training framework of MathCanvas.
-  </figcaption>
-</figure>
+  </i></small>
+</p>
 
 ## 📝 TODO
 
