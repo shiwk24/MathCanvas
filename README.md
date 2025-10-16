@@ -56,12 +56,14 @@
 
 🌟 This is the official repository for the paper **"MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"**. This repository will host the datasets, evaluation code, and models associated with our work.
 
-<figure style="text-align: center; margin: 0 auto;">
+<p align="center">
   <img src="assets/teaser.jpg" alt="MathCanvas Teaser" width="100%">
-  <figcaption><small><i>
+</p>
+<p align="center">
+  <small><i>
     MathCanvas demonstrates the first successful application of intrinsic Visual Chain-of-Thought (VCoT) for complex mathematical reasoning, outperforming previous attempts.
-  </i></small></figcaption>
-</figure>
+  </i></small>
+</p>
 
 **MathCanvas** is a comprehensive framework designed to endow unified Large Multimodal Models (LMMs) with intrinsic **Visual Chain-of-Thought (VCoT)** capabilities for mathematics. Our approach enables models to strategically generate and reason with visual aids, mirroring how humans solve complex problems in domains like geometry and function analysis.
 
