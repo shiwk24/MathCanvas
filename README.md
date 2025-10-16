@@ -58,9 +58,9 @@
 
 <figure style="text-align: center; margin: 0 auto;">
   <img src="assets/teaser.jpg" alt="MathCanvas Teaser" width="100%">
-  <figcaption style="font-size: 14px; margin-top: 8px; font-style: italic; color: #666;">
+  <figcaption><small><i>
     MathCanvas demonstrates the first successful application of intrinsic Visual Chain-of-Thought (VCoT) for complex mathematical reasoning, outperforming previous attempts.
-  </figcaption>
+  </i></small></figcaption>
 </figure>
 
 **MathCanvas** is a comprehensive framework designed to endow unified Large Multimodal Models (LMMs) with intrinsic **Visual Chain-of-Thought (VCoT)** capabilities for mathematics. Our approach enables models to strategically generate and reason with visual aids, mirroring how humans solve complex problems in domains like geometry and function analysis.
