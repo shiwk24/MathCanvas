@@ -116,7 +116,7 @@ We constructed a massive 15.2M-pair pre-training corpus to teach foundational vi
 ### Two-Stage Training Recipe
 
 Our model, **BAGEL-Canvas**, is trained using a two-stage framework:
-1.  **Stage I: Mastering Visual Manipulation:** The model learns from the 15.2M examples in MathCanvas-Imagen and MathCanvas-Edit to create and edit diagrams.
+1.  **Stage I: Mastering Visual Manipulation:** The model learns from the 15.2M examples in MathCanvas-Imagen and MathCanvas-Edit to create and edit mathematical diagrams.
 2.  **Stage II: Developing Strategic Reasoning:** The model is then trained on MathCanvas-Instruct to strategically generate visual steps as part of a solution.
 
 <p align="center">
