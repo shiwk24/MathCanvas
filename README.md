@@ -6,7 +6,7 @@
 
 <p>
     <a href="https://mathcanvas.github.io/" target="_blank"><img src="https://img.shields.io/badge/🌐-Project%20Page-blue" alt="Project Page"></a>
-    <a href="https://arxiv.org/abs/..." target="_blank"><img src="https://img.shields.io/badge/📖-Paper-b31b1b" alt="Paper"></a>
+    <a href="https://arxiv.org/pdf/2510.14958" target="_blank"><img src="https://img.shields.io/badge/📖-Paper-b31b1b" alt="Paper"></a>
     <a href="https://github.com/shiwk24/MathCanvas" target="_blank"><img src="https://img.shields.io/badge/💻-Code-green" alt="Code"></a>
     <a href="https://mathcanvas.github.io/#leaderboard" target="_blank"><img src="https://img.shields.io/badge/📊-Leaderboard-orange" alt="Leaderboard"></a>
     <a href="https://huggingface.co/shiwk24/BAGEL-Canvas" target="_blank"><img src="https://img.shields.io/badge/🤗-Model-yellow" alt="Model"></a>
@@ -141,3 +141,12 @@ Our code and models are currently being prepared for public release. We apprecia
 If you find our work useful for your research, please consider citing our paper:
 
 ```bibtex
+@misc{shi2025mathcanvasintrinsicvisualchainofthought,
+      title={MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning}, 
+      author={Weikang Shi and Aldrich Yu and Rongyao Fang and Houxing Ren and Ke Wang and Aojun Zhou and Changyao Tian and Xinyu Fu and Yuxuan Hu and Zimu Lu and Linjiang Huang and Si Liu and Rui Liu and Hongsheng Li},
+      year={2025},
+      eprint={2510.14958},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.14958}, 
+}
