@@ -78,7 +78,7 @@ To facilitate rigorous evaluation, we introduce **MathCanvas-Bench**, a challeng
 </p>
 <p align="center">
   <small><i>
-    Statistical analysis of the MathCanvas-Instruct and MathCanvas-Bench datasets.
+    Statistical analysis of the MathCanvas-Bench dataset.
   </i></small>
 </p>
 
@@ -116,8 +116,8 @@ We constructed a massive 15.2M-pair pre-training corpus to teach foundational vi
 ### Two-Stage Training Recipe
 
 Our model, **BAGEL-Canvas**, is trained using a two-stage framework:
-1.  **Stage I: Visual Manipulation:** Pre-training on MathCanvas-Imagen and MathCanvas-Edit.
-2.  **Stage II: Strategic Visual-Aided Reasoning:** Fine-tuning on MathCanvas-Instruct.
+1.  **Stage I: Mastering Visual Manipulation:** The model learns from the 15.2M examples in MathCanvas-Imagen and MathCanvas-Edit to create and edit diagrams.
+2.  **Stage II: Developing Strategic Reasoning:** The model is then trained on MathCanvas-Instruct to strategically generate visual steps as part of a solution.
 
 <p align="center">
   <img src="assets/recipe.jpg" alt="MathCanvas Framework" width="100%">
