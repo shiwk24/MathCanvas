@@ -150,3 +150,13 @@ If you find our work useful for your research, please consider citing our paper:
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2510.14958}, 
 }
+@inproceedings{
+  wang2025mathcodervl,
+  title={MathCoder-{VL}: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning},
+  author={Ke Wang and Junting Pan and Linda Wei and Aojun Zhou and Weikang Shi and Zimu Lu and Han Xiao and Yunqiao Yang and Houxing Ren and Mingjie Zhan and Hongsheng Li},
+  booktitle={The 63rd Annual Meeting of the Association for Computational Linguistics},
+  year={2025},
+  url={https://openreview.net/forum?id=nuvtX1imAb}
+}
+
+```
