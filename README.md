@@ -52,6 +52,9 @@
 
 </div>
 
+## 💥 News
+- **[2025-10-18]** Our paper is now accessible at [ArXiv Paper](https://arxiv.org/abs/2510.14958).
+
 ## 📖 Introduction
 
 🌟 This is the official repository for the paper **"MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"**. This repository will host the datasets, evaluation code, and models associated with our work.
