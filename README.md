@@ -77,7 +77,7 @@
 
 For detailed instructions on setting up the environment, training the **BAGEL-Canvas** model, and running inference, please refer to our comprehensive guide:
 
-*   **[📄 USAGE.md](./USAGE.md)**: The complete guide for model training and inference.
+*   **[📄 USAGE.md](./BAGEL/USAGE.md)**: The complete guide for model training and inference.
 
 ## 📊 Evaluation
 
