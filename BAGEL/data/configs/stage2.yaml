@@ -1,0 +1,15 @@
+interleave_reasoning:
+  dataset_names:
+  - mathcanvas_instruct
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 512
+    min_image_size: 512
+  vit_image_transform_args:
+    image_stride: 14
+    max_image_size: 512
+    min_image_size: 512
+  is_mandatory: true
+  num_used_data:
+  - 49
+  weight: 1

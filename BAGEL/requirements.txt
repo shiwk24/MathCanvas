@@ -1,0 +1,32 @@
+decord==0.6.0
+einops==0.8.1
+matplotlib==3.7.0
+numpy==1.24.4
+opencv_python==4.7.0.72
+pyarrow==11.0.0
+PyYAML==6.0.2
+Requests==2.32.3
+safetensors==0.4.5
+scipy==1.10.1
+sentencepiece==0.1.99
+torch==2.7.1
+torchvision==0.22.1
+transformers==4.55.4
+accelerate>=0.34.0
+ipython==8.37.0
+ipywidgets==8.1.7
+datasets
+huggingface_hub
+openai
+wandb
+gradio
+Pillow
+sympy
+setuptools
+wheel
+ninja
+bitsandbytes
+xlsxwriter
+triton ; sys_platform != 'win32'
+triton-windows ; sys_platform == 'win32'
+# flash_attn==2.8.2

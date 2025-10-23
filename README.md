@@ -47,13 +47,16 @@
 <p>
 <sup>1</sup>MMLab, CUHK&ensp;&ensp; <sup>2</sup>Huawei Research&ensp;&ensp; <sup>3</sup>BUAA
 <br>
-<small><sup>†</sup>Equal Contribution&ensp;&ensp; <sup>‡</sup>Project Lead&ensp;&ensp; <sup>*</sup>Corresponding Author</small>
+<small><sup>*</sup>Equal Contribution&ensp;&ensp; <sup>†</sup>Project Lead&ensp;&ensp; <sup>‡</sup>Corresponding Author</small>
 </p>
 
 </div>
 
 ## 💥 News
-- **[2025-10-18]** Our paper is now accessible at [ArXiv Paper](https://arxiv.org/abs/2510.14958).
+
+- **[2025-10-23]** We release the [training/inference code](./BAGEL/) of BAGEL-Canvas and [evaluation scripts](./evaluation/) for MathCanvas-Bench.
+- **[2025-10-18]** Our model and datasets are now accessible at [Huggingface](https://huggingface.co/collections/shiwk24/mathcanvas).
+- **[2025-10-18]** Our paper is now accessible at [ArXiv Paper](https://arxiv.org/pdf/2510.14958).
 
 ## 📖 Introduction
 
@@ -69,6 +72,35 @@
 </p>
 
 **MathCanvas** is a comprehensive framework designed to endow unified Large Multimodal Models (LMMs) with intrinsic **Visual Chain-of-Thought (VCoT)** capabilities for mathematics. Our approach enables models to strategically generate and reason with visual aids, mirroring how humans solve complex problems in domains like geometry and function analysis.
+
+## 🚀 Model Training and Inference
+
+For detailed instructions on setting up the environment, training the **BAGEL-Canvas** model, and running inference, please refer to our comprehensive guide:
+
+*   **[📄 USAGE.md](./USAGE.md)**: The complete guide for model training and inference.
+
+## 📊 Evaluation
+
+This section provides instructions for evaluating model performance on our **MathCanvas-Bench** benchmark. The evaluation process relies on an LLM-based judge (GPT-4.1) to assess the correctness of the generated answers.
+
+To evaluate the inference results on **MathCanvas-Bench**, follow the steps below:
+
+1.  **Configure the Evaluation Script**:
+    Open the `evaluation/mathcanvas_evaluate_4.1.sh` script and set the `your_api_key` and `your_base_url` variables.
+
+2.  **Run Evaluation**:
+    Execute the following command, replacing `{INFERENCE_DIR}` with the path to your inference output.
+
+    ```bash
+    cd MathCanvas/evaluation
+    bash mathcanvas_evaluate_4.1.sh {INFERENCE_DIR}
+    ```
+
+3.  **View the Results**:
+    After the script finishes, an evaluation summary will be generated. This summary includes detailed accuracy metrics, such as:
+    *   Weighted scoring accuracy and complete accuracy.
+    *   Accuracy broken down by knowledge category.
+    *   Accuracy based on whether the question includes initial images.
 
 ## ✨ Highlights
 
@@ -131,12 +163,14 @@ Our model, **BAGEL-Canvas**, is trained using a two-stage framework:
   </i></small>
 </p>
 
+
 ## 📝 TODO
 
 Our code and models are currently being prepared for public release. We appreciate your patience!
 
-- [ ] Release training and inference code for **BAGEL-Canvas**.
-- [ ] Release evaluation scripts for the **MathCanvas-Bench**.
+- [x] Release training and inference code for **BAGEL-Canvas**.
+- [x] Release evaluation scripts for the **MathCanvas-Bench**.
+- [ ] Update the evaluation scripts for the **MathCanvas-Bench** to [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).
 - [ ] Release the data generation code for **Foundational Structure Generation** in MathCanvas-Edit.
 
 ## 📜 Citation
@@ -161,5 +195,4 @@ If you find our work useful for your research, please consider citing our paper:
   year={2025},
   url={https://openreview.net/forum?id=nuvtX1imAb}
 }
-
 ```

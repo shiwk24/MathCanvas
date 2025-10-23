@@ -1,0 +1,71 @@
+competition_level_mining:
+  dataset_names:
+  - competition_level_mining
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 512
+    min_image_size: 512
+  vit_image_transform_args:
+    image_stride: 14
+    max_image_size: 512
+    min_image_size: 512
+  is_mandatory: true
+  num_used_data:
+  - 911
+  weight: 2.2
+
+foundational_structure_generation:
+  dataset_names:
+  - foundational_structure_generation
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 512
+    min_image_size: 512
+  vit_image_transform_args:
+    image_stride: 14
+    max_image_size: 512
+    min_image_size: 512
+  is_mandatory: true
+  num_used_data:
+  - 187
+  weight: 1.1
+
+code_derived_captions:
+  dataset_names:
+  - code_derived_captions
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 512
+    min_image_size: 512
+  is_mandatory: true
+  num_used_data: # The sum should be larger that NUM_GPUS x NUM_WORKERS
+  - 254
+  weight: 3.0
+
+repurposing_competition:
+  dataset_names:
+  - repurposing_competition
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 512
+    min_image_size: 512
+  is_mandatory: true
+  num_used_data: # The sum should be larger that NUM_GPUS x NUM_WORKERS
+  - 337
+  weight: 2.2
+
+others:
+  dataset_names:
+  - repurposing_foundational
+  - mavis
+  - tr_cot
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 512
+    min_image_size: 512
+  is_mandatory: true
+  num_used_data: # The sum should be larger that NUM_GPUS x NUM_WORKERS
+  - 72
+  - 78
+  - 9
+  weight: 1.4
