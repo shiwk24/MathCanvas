@@ -605,7 +605,7 @@ def main():
                     debug_batch = next(debug_loader_iter)
 
                     # 将 logger 对象传递给调试函数
-                    debug_packed_batch(debug_batch, tokenizer, new_token_ids, logger, batch_name=f"Initial Batch {i+1}")
+                    log_packed_batch(debug_batch, tokenizer, new_token_ids, logger, batch_name=f"Initial Batch {i+1}")
 
                 except StopIteration:
                     logger.warning("Dataloader exhausted before finishing debug batches.")
