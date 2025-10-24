@@ -35,7 +35,7 @@ from train.fsdp_utils import (
     FSDPCheckpoint, FSDPConfig, grad_checkpoint_check_fn, fsdp_wrapper, 
     fsdp_ema_setup, fsdp_ema_update,
 )
-from train.debug_utils import debug_packed_batch
+from train.log_utils import log_packed_batch
 
 
 @dataclass

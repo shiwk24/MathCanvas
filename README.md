@@ -54,7 +54,7 @@
 
 ## 💥 News
 
-- **[2025-10-23]** We release the [training/inference code](./BAGEL/) of BAGEL-Canvas and [evaluation scripts](./evaluation/) for MathCanvas-Bench.
+- **[2025-10-23]** We release the [training/inference code](./BAGEL-Canvas/) of BAGEL-Canvas and [evaluation scripts](./evaluation/) for MathCanvas-Bench.
 - **[2025-10-18]** Our model and datasets are now accessible at [Huggingface](https://huggingface.co/collections/shiwk24/mathcanvas).
 - **[2025-10-18]** Our paper is now accessible at [ArXiv Paper](https://arxiv.org/pdf/2510.14958).
 
@@ -77,7 +77,7 @@
 
 For detailed instructions on setting up the environment, training the **BAGEL-Canvas** model, and running inference, please refer to our comprehensive guide:
 
-*   **[📄 Model Usage](./BAGEL/README.md)**: The complete guide for model training and inference.
+*   **[📄 Model Usage](./BAGEL-Canvas/README.md)**: The complete guide for model training and inference.
 
 ## 📊 Evaluation
 

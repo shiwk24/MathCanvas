@@ -1,6 +1,6 @@
 # 🚀 Model Usage: Training & Inference
 
-This document provides detailed instructions on how to set up the environment, train the **BAGEL-Canvas** model, and run inference. All commands should be run from the `BAGEL/` subdirectory.
+This document provides detailed instructions on how to set up the environment, train the **BAGEL-Canvas** model, and run inference. All commands should be run from the `BAGEL-Canvas/` subdirectory.
 
 ## ⚙️ Environment Setup
 
@@ -8,7 +8,7 @@ First, clone the repository and set up the Conda environment.
 
 ```bash
 git clone https://github.com/shiwk24/MathCanvas.git
-cd MathCanvas/BAGEL
+cd MathCanvas/BAGEL-Canvas
 
 conda create -n bagel-canvas python=3.10 -y
 conda activate bagel-canvas

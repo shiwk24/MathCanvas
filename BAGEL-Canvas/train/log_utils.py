@@ -1,7 +1,7 @@
 import torch
 from collections import Counter
 
-def debug_packed_batch(batch, tokenizer, new_token_ids, logger, batch_name="Batch"):
+def log_packed_batch(batch, tokenizer, new_token_ids, logger, batch_name="Batch"):
     """
     Analyzes a packed batch and logs a summarized, human-readable breakdown of its
     structural blocks. It enforces strict type checking, displays full text content,
