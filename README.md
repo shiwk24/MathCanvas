@@ -54,7 +54,7 @@
 
 ## 💥 News
 
-- **[2026-04-14]** 🎉 Our paper has been accepted to ACL 2026 Main Conference!
+- **[2026-04-14]** 🎉 Our paper has been accepted to **ACL 2026 Main Conference**!
 - **[2025-11-15]** Our MathCanvas-Instruct dataset--219k math problems with interleaved visual-text reasoning is now accessible at [Huggingface](https://huggingface.co/datasets/shiwk24/MathCanvas-Instruct).
 - **[2025-10-30]** 🚀 We are excited to announce that **MathCanvas-Bench** is now officially supported by [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)! This allows for easy evaluation on over **220+ LMMs**. For usage instructions, please refer to [this PR](https://github.com/open-compass/VLMEvalKit/pull/1292).
 - **[2025-10-28]** The data generation code for the **Foundational Structure Generation** part of `MathCanvas-Edit` is now available. Refer to the [Data Generation](#-data-generation) section for usage instructions.
